@@ -1,0 +1,87 @@
+body {
+  background-image: url("../img/background3.jpg");
+}
+.nav>li {
+  background-color: #cccccc;
+}
+.jumbotron {
+  background-color: #e6f3ff;
+  min-height: 600px;
+}
+.nav.nav-pills {
+	background-image: url("../img/background-tab2.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.total_cart {
+	text-align: right;
+	background-color: #eeeeee;
+	padding-right: 70px !important;
+}
+.total_tab {
+	padding: 5px 10px;
+}
+.wishlist_board {
+	color: #666666;
+}
+.wishlist_board>img {
+	width: 80px;
+  margin-top: -73px;
+  margin-left: 70px;
+}
+.pagination {
+  margin: 0 0;
+}
+.hidden-input {
+	background-color: transparent;
+	border: none;
+	color: transparent;
+}
+
+.dialogdemoBasicUsage #popupContainer {
+  position: relative; }
+.dialogdemoBasicUsage .footer {
+  width: 100%;
+  text-align: center;
+  margin-left: 20px; }
+.dialogdemoBasicUsage .footer, .dialogdemoBasicUsage .footer > code {
+  font-size: 0.8em;
+  margin-top: 50px; }
+.dialogdemoBasicUsage button {
+  width: 200px; }
+.dialogdemoBasicUsage div#status {
+  color: #c60008; }
+.dialogdemoBasicUsage .dialog-demo-prerendered md-checkbox {
+  margin-bottom: 0; }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+.bookinfo {
+ 
+}
+
+.toggleView>input[type=checkbox] {
+  display:none;
+}
+.toggleView>input[type=checkbox] + label {
+  background: #999;
+  background: url('../img/change_view.png') 0 0px no-repeat;
+  height: 30px;
+  width: 30px;
+  display:inline-block;
+  padding: 0 0 0 0px;
+}
+.toggleView>input[type=checkbox]:checked + label {
+  background: #0080FF;
+  background: url('../img/change_view.png') 0 0px no-repeat;
+  height: 30px;
+  width: 30px;
+  display:inline-block;
+  padding: 0 0 0 0px;
+}
+.toggleViewTitle {
+  color: #666;
+}
